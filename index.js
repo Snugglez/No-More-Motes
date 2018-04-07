@@ -9,7 +9,7 @@ command.add('nmm', () => {
 enabled = !enabled
 command.message(`No-More-motes is now ${enabled ? 'enabled' : 'disabled'}.`)})
 
-dispatch.hook('S_SPAWN_DROPITEM', 1, (event) => {   		
+dispatch.hook('S_SPAWN_DROPITEM', 6, (event) => {   		
 if(!enabled) return;
 if (moteIds.includes(event.item)){return false;}
 
