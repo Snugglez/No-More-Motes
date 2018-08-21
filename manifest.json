@@ -1,13 +1,14 @@
 {
-  "files": {
-    "config.json": {
-      "overwrite": false,
-      "hash": "f69597ee6683b54601c39594e93aa5f36cfe01999f3366d8de73f1b529830b9c"},
-    "index.js": "452768c491f73e88aa4b8624b3cec062860c91436dd01799641c3f46fbf00c26",
-    "module.json": "eff0cf59d50ba11d20fa69a45a56388658ef28339cdd246242abd080da10005f",
-    "README.md": "a12e6954041067f48f48d2d89cc5f90db0424bf89b71fac6dd3b10a4746ce4f7"
-    },
-      "defs": {
-        "S_SPAWN_DROPITEM": 6
-    }
+	"files": {
+		"README.md": "a12e6954041067f48f48d2d89cc5f90db0424bf89b71fac6dd3b10a4746ce4f7",
+		"config.json": {
+			"overwrite": false,
+			"hash": "f69597ee6683b54601c39594e93aa5f36cfe01999f3366d8de73f1b529830b9c"
+		},
+		"index.js": "0a563c73484cbfc42cf9b21a67c3dd43a4dcc80472d9398d7a566dba8ddaec55",
+		"module.json": "75b89975bf5663304773fdd3ca82e7cee60fdcabfcae4a07ee11f670151951fd"
+	},
+	"defs": {
+		"S_SPAWN_DROPITEM": 6
+	}
 }

@@ -1,15 +1,13 @@
 const config = require('./config.json');
-const Command = require('Command')
 const moteIds = [8001, 8002]
-module.exports = function nmm(dispatch) {
-const command = Command(dispatch)
+module.exports = function nmm(d) {
 let enabled = config.toggle;
 
-command.add('nmm', () => {
+d.command.add("nmm", {
+$default() {
 enabled = !enabled
-command.message(`No-More-motes is now ${enabled ? 'enabled' : 'disabled'}.`)})
-
-dispatch.hook('S_SPAWN_DROPITEM', 6, (event) => {   		
+d.command.message(`No-More-motes is now ${enabled ? 'enabled' : 'disabled'}.`)}})
+d.hook('S_SPAWN_DROPITEM', 6, (event) => {   		
 if(!enabled) return;
 if (moteIds.includes(event.item)){return false;}
 
