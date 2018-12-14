@@ -1,5 +1,9 @@
 {
 	"disableAutoUpdate": false,
+    "name": "GG-Reset",
+    "author": "Snug",
+    "description": "Disables the spawning of iod hp/mp motes to help on fps when mass farming iod",
+    "version": "1.0",
 	"servers": ["https://raw.githubusercontent.com/Snugglez/No-More-Motes/master/"],
 	"supportUrl": "https://github.com/Snugglez/No-More-Motes/issues"
 }
