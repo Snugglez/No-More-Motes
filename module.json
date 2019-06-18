@@ -2,7 +2,14 @@
 	"disableAutoUpdate": false,
     "name": "No-More-Motes",
     "author": "Snug",
-    "description": "Disables the spawning of iod hp/mp motes to help on fps when mass farming iod",
+    "description": "Disables the spawning of motes to help on fps when mass farming iod",
+	"options": {
+		"guiName": "No-More-Motes",
+		"niceName": "nmm",
+		"settingsVersion": 1,
+        "settingsFile": "settings.json",
+        "settingsMigrator": "settings_generator.js"
+	},
     "version": "1.0",
 	"servers": ["https://raw.githubusercontent.com/Snugglez/No-More-Motes/master/"],
 	"supportUrl": "https://github.com/Snugglez/No-More-Motes/issues"
