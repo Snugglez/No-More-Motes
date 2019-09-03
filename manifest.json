@@ -1,10 +1,12 @@
 {
 	"files": {
 		"README.md": "c5a9f42802df019bfed4b2dfdd06af2f7345209dfa8f177bc36a9491b070ef94",
-		"index.js": "e5a318fce2f622198481ccff2be8e801a00c916835ea7a53b279ffb22f9fd314",
+		"config.json": "f69597ee6683b54601c39594e93aa5f36cfe01999f3366d8de73f1b529830b9c",
+		"index.js": "e907959d13f92790c590855ba6743628c1b0fade5bf176fc3f5217852e90430f",
+		"module.json": "f0dbe13e14d55fb848c707bbadf7294eaf3ca6c9b1a6024fcc933a247143be1b",
 		"settings_generator.js": "c9a478492a55db2b6e02003a7a92ea64107724fae27631704228b74f7eb9e395"
 	},
 	"defs": {
-		"S_SPAWN_DROPITEM": [7]
+		"S_SPAWN_DROPITEM": [8]
 	}
 }

@@ -9,7 +9,7 @@ if(v == 'mystic'){
 d.settings.mysticMode = !d.settings.mysticMode
 d.command.message(`Mystic Mode ${d.settings.mysticMode ? 'enabled' : 'disabled'}`)}
 })
-d.hook('S_SPAWN_DROPITEM', 7, (e) => {   		
+d.hook('S_SPAWN_DROPITEM', 8, (e) => {   		
 if(d.settings.enabled && moteIds.includes(e.item)){return false}
 if(d.settings.enabled && d.settings.mysticMode && mysticIds.includes(e.item)){return false}
 else return
