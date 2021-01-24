@@ -2,7 +2,7 @@
 	"disableAutoUpdate": false,
     "name": "No-More-Motes",
     "author": "Snug",
-    "description": "Disables the spawning of motes to help on fps when mass farming iod",
+    "description": "Disables the spawning of motes to help on fps when mass farming iod(extra toggle to disable mystics motes)",
 	"options": {
 		"guiName": "No-More-Motes",
 		"niceName": "nmm",
